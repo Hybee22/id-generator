@@ -1,0 +1,28 @@
+{
+  "name": "id-generator",
+  "version": "1.0.0",
+  "description": "This is a sequence id generator that generates unique ids with no possibility of collisions.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hybee22/id-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hybee22/id-generator/issues"
+  },
+  "homepage": "https://github.com/Hybee22/id-generator#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0"
+  }
+}
