@@ -5,8 +5,7 @@ const isDate = (date) => {
   return new Date(date) !== "Invalid Date" && !isNaN(new Date(date));
 };
 
-const currentDate = new Date();
-const timestamp = currentDate.getTime();
+const timestamp = new Date().getTime();
 class SequenceGeneratorController {
   async generate(req, res) {
     try {
